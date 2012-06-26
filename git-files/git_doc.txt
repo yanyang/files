@@ -5,7 +5,7 @@ $ git remote add upstream git@github.com:otcshare/simulator.git   //获取remote
 
 $ tsocks git fetch upstream 
 $ git pull upstream next   //获取upstream/next 分支上的更新，与本地的分支merge
-
+//git checkout -b local-next upstream/next
 $ git checkout --track -b local-branch-name origin/branch-name   //同步本地库和reomote库
 $ git branch -a //查看所有的分支
 $ git pull upstream next //更新
